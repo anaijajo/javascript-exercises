@@ -1,7 +1,7 @@
 const repeatString = function(repeatWord, repeatNumber) {
-    let fullWord = "";
+    let fullWord = '';
     for (let i = 0; i < repeatNumber; i++) {
-        fullWord.concat(repeatWord);
+        fullWord += repeatWord;
     }
     return fullWord;
 };
