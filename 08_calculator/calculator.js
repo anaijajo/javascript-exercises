@@ -6,10 +6,10 @@ const subtract = function(num1, num2) {
 	return num1 - num2;
 };
 
-const sum = function(numbers) {
+const sum = function(num) {
 	let totalSum = 0;
-  for (let i = 0; i < numbers.length; i++) {
-    totalSum += numbers[i];
+  for (let i = 0; i < num.length; i++) {
+    totalSum += num[i];
   }
   return totalSum;
 };
